@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
+}
+h1{
+    font-family: elephant;
+    font-size: 40px;
+    margin-top: 60px;
+}
+button{
+    padding: 20px;
+    background-color: rgb(8, 90, 243);
+    color: white;
+    border: 1px solid blue;
+    border-radius: 12px;
+}
+p{
+    color: gray;
+    font-size: 12px;
+}
