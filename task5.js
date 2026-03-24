@@ -20,7 +20,7 @@ function displayProducts(products) {
         <h3>${product.title.substring(0, 40)}...</h3>
         <p class="price">$${product.price}</p>
         <button onclick="deleteProduct(${product.id}, this)">
-          🗑 Delete
+           Delete
         </button>
       </div>
     `;
