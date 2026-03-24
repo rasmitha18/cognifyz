@@ -1,0 +1,33 @@
+body {
+      background: #f8f9fa;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    }
+
+    .sidebar {
+      background: #343a40;
+      color: white;
+      
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .sidebar a {
+      color: white;
+      display: block;
+      margin: 10px 0;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      color: #0d6efd;
+    }
+
+    
+    footer {
+      margin-top: 20px;
+    }
+    
