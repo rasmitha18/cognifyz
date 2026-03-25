@@ -1,0 +1,73 @@
+ @import 'variables';
+@import 'mixins';
+
+body {
+  font-family: $font-main;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: $text-color;
+}
+
+/* Navbar */
+.navbar {
+  background-color: $primary-color;
+  color: white;
+  padding: $padding;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    list-style: none;
+    display: flex;
+
+    li {
+      margin-left: 15px;
+
+      a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+}
+
+/* Container */
+.container {
+  @include flex-center;
+  height: 80vh;
+
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+    h2 {
+      color: $primary-color;
+    }
+
+    button {
+      @include button-style($secondary-color);
+      margin-top: 10px;
+
+      &:hover {
+        background-color: darkgreen;
+      }
+    }
+  }
+}
+
+/* Footer */
+footer {
+  background-color: $primary-color;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
